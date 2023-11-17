@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Combine Words</title>
+		<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script>
+			$(document).ready(function () {
+				$("#saveButton").click(function () {
+					event.preventDefault();
+					var perct = $("#value1").val();
+					$.ajax({
+						type: "GET",
+						url: "/pca",
+						data: { value1: perct },
+						success: function (response) {
+							var imageUrl = response.image_url;
+							$("#image").attr("src", imageUrl);
+							$("#result").text("Combined Word: " + response.combined_word);
+						},
+						error: function (xhr, status, error) {
+							console.log("AJAX request failed: " + status + ", " + error);
+						},
+					});
+				});
+			});
+		</script>
+		<link rel="stylesheet" href="../static/styles/style.css" />
+	</head>
+	<body>
+		<div class="content__cover">
+			<div class="content">
+				<form class="pca__form">
+					<label for="word1"><h1>Number of components:</h1></label>
+					<input type="number" name="value1" id="value1" min="1" max="100" step="1" value="1" />
+					<!-- <div id="result"></div> -->
+				</form>
+				<hr />
+				<h1>Display Image</h1>
+				<div class="pca__cover">
+					<img class="pca__img" id="image1" src="../static/images/dalat.jpg" alt="Saved Image" />
+					<div class="pca__arrow">
+						<button id="saveButton">
+							<ion-icon name="arrow-forward-outline"></ion-icon>
+						</button>
+					</div>
+					<div class="pca__flex">
+						<img class="pca__img pca__img-result" id="image" src="" alt="Saved Image" />
+						<img class="pca__img pca__img-result" id="image_graph" src="../static/images/download.png" alt="Saved Image" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
