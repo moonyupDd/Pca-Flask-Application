@@ -1,0 +1,82 @@
+* {
+	margin: 0%;
+	padding: 0%;
+}
+
+body {
+	background-image: url("https://vietaction.com/images/uploads/dalat_team_building_biking_-_cycling,_dalat_viet_action_tours_-_dalat_canyoning_tours_-_dalat_team_building_-_viet_nam_trekking_(51).JPG");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+
+.content__cover {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.content {
+	background-color: #fff;
+	margin: auto;
+	width: 1200px;
+	padding: 0 8px;
+	height: 100%;
+}
+
+.pca__img {
+	border: 3px #000 dashed;
+}
+
+.pca__cover {
+	display: flex;
+	justify-content: space-between;
+	margin: 1.2rem;
+}
+
+.pca__form {
+	display: flex;
+}
+
+#image1 {
+	width: 500px;
+	aspect-ratio: 1/1;
+	object-fit: cover;
+}
+
+.pca__flex {
+	display: flex;
+	flex-direction: column;
+}
+
+.pca__flex img {
+	margin: 5px;
+	width: 245px;
+	aspect-ratio: 1/1;
+	object-fit: cover;
+}
+
+.pca__arrow {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+ion-icon {
+	font-size: 3.4rem;
+	font-weight: bold;
+	cursor: pointer;
+	transform: scale(0.8);
+}
+
+ion-icon:hover {
+	transform: scale(1);
+	transition: all 0.5s;
+}
+
+button {
+	border: none;
+	background-color: #fff;
+}
