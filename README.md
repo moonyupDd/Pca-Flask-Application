@@ -3,7 +3,7 @@
 !Principal Component Analysis (PCA) README
 #Overview
 This repository contains the implementation and documentation for Principal Component Analysis (PCA). PCA is a dimensionality reduction technique commonly used in various fields, including data analysis, image processing, and machine learning. This README provides information on how PCA is implemented, its applications, and how to use the provided code.
-#Contents
+*Contents
 1.	Introduction
 2.	Usage
 3.	Implementation Details
@@ -13,7 +13,7 @@ This repository contains the implementation and documentation for Principal Comp
 7.	Usage Examples
 8.	Contributing
 9.	License
-##Introduction
+*Introduction
 Principal Component Analysis (PCA) is a mathematical technique that transforms high-dimensional data into a lower-dimensional representation while retaining as much of the original variability as possible. It does this by identifying the principal components, which are the directions in the data with the maximum variance.
 Usage
 This repository provides a Python implementation of PCA. To use it in your project, follow the steps outlined in the Installation section. The main PCA functionality is encapsulated in the pca.py module, and usage examples are provided in the Usage Examples section.
