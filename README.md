@@ -21,8 +21,8 @@ This repository provides a Python implementation of PCA. To use it in your proje
 -------
 The PCA algorithm implemented in this repository follows these key steps:
 1.	Data Preprocessing:
-** Standardization of data (optional).
-** Computation of the covariance matrix.
+- Standardization of data (optional).
+-  Computation of the covariance matrix.
 2.	Eigenvalue Decomposition:
 ** Calculation of eigenvalues and eigenvectors of the covariance matrix.
 3.	Selection of Principal Components:
