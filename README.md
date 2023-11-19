@@ -24,12 +24,12 @@ The PCA algorithm implemented in this repository follows these key steps:
 - Standardization of data (optional).
 -  Computation of the covariance matrix.
 2.	Eigenvalue Decomposition:
-** Calculation of eigenvalues and eigenvectors of the covariance matrix.
+- Calculation of eigenvalues and eigenvectors of the covariance matrix.
 3.	Selection of Principal Components:
-** Sorting eigenvalues in descending order.
-** Selection of the top-k eigenvectors as principal components.
+-  Sorting eigenvalues in descending order.
+-  Selection of the top-k eigenvectors as principal components.
 4.	Projection:
-** Transformation of the original data into the reduced-dimensional space.
+-  Transformation of the original data into the reduced-dimensional space.
 
 ##Applications
 ---------------
