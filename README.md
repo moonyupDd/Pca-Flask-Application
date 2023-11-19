@@ -3,7 +3,7 @@
 #Principal Component Analysis (PCA) README
 ----
 
-##Tổng thể
+##Overview
 ---------
 This repository contains the implementation and documentation for Principal Component Analysis (PCA). PCA is a dimensionality reduction technique commonly used in various fields, including data analysis, image processing, and machine learning. This README provides information on how PCA is implemented, its applications, and how to use the provided code.
 
