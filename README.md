@@ -34,10 +34,15 @@ The PCA algorithm implemented in this repository follows these key steps:
 ##Applications
 ---------------
 PCA has a wide range of applications, including:
+
 -	Dimensionality reduction in machine learning.
+-	
 -	Image compression and denoising.
+-	
 -	Feature extraction in signal processing.
+-	
 -	Exploratory data analysis.
+-	
 -	Facial recognition systems.
 
 #License
