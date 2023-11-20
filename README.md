@@ -62,6 +62,9 @@ NumPy: fundamental package for scientific computing in Python.
 Imageio: library for reading and writing different image file formats. 
 
 Matplotlib: plotting library for creating visualizations in Python. It provides a comprehensive set of functions for creating various types of plots
+```
+pip install matplotlib
+```
 
 Sklearn (scikit-learn): Scikit-learn is a machine learning library that provides various algorithms and tools for data analysis and modeling
 
