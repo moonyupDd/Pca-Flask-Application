@@ -16,7 +16,11 @@
 						data: { value1: perct },
 						success: function (response) {
 							var imageUrl = response.image_url;
+							var graphUrl = response.graph_url;
 							$("#image").attr("src", imageUrl);
+							$("#image_graph").attr("src", graphUrl);
+							console.log(response);
+							console.log(imageUrl);
 							$("#result").text("Combined Word: " + response.combined_word);
 						},
 						error: function (xhr, status, error) {
@@ -47,7 +51,7 @@
 					</div>
 					<div class="pca__flex">
 						<img class="pca__img pca__img-result" id="image" src="" alt="Saved Image" />
-						<img class="pca__img pca__img-result" id="image_graph" src="../static/images/download.png" alt="Saved Image" />
+						<img class="pca__img pca__img-result" id="image_graph" src="" alt="Saved Graph" />
 					</div>
 				</div>
 			</div>
