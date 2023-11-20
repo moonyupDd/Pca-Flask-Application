@@ -54,12 +54,24 @@ Image data: Google image
 ##Requirment
 ---------------
 PIL: Manipulating, and saving many different image files
+```
+pip install pillow
+```
 
 SciPy: library for scientific computing and provides various numerical algorithms
+```
+pip install scipy
+```
 
 NumPy: fundamental package for scientific computing in Python.
+```
+pip install scipy
+```
 
 Imageio: library for reading and writing different image file formats. 
+```
+pip install imageio
+```
 
 Matplotlib: plotting library for creating visualizations in Python. It provides a comprehensive set of functions for creating various types of plots
 ```
@@ -67,8 +79,14 @@ pip install matplotlib
 ```
 
 Sklearn (scikit-learn): Scikit-learn is a machine learning library that provides various algorithms and tools for data analysis and modeling
+```
+pip install scikit-learn
+```
 
 Flask: web framework for building web applications in Python
+```
+pip install flask
+```
 
 #License
 --------------------------------------------
