@@ -45,6 +45,28 @@ PCA has a wide range of applications, including:
   
 -	Facial recognition systems.
 
+##Information
+-------------
+PCA document source: https://pythonalgos.com/2021/11/12/intermediate-machine-learning-principal-component-analysis-pca/
+Code assistance: ChatGpt
+Image data: Google image
+
+##Requirment
+---------------
+PIL: Manipulating, and saving many different image files
+
+SciPy: library for scientific computing and provides various numerical algorithms
+
+NumPy: fundamental package for scientific computing in Python.
+
+Imageio: library for reading and writing different image file formats. 
+
+Matplotlib: plotting library for creating visualizations in Python. It provides a comprehensive set of functions for creating various types of plots
+
+Sklearn (scikit-learn): Scikit-learn is a machine learning library that provides various algorithms and tools for data analysis and modeling
+
+Flask: web framework for building web applications in Python
+
 #License
 --------------------------------------------
 This project is licensed under the #TeamCuaAn.
